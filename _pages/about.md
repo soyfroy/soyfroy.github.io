@@ -32,3 +32,7 @@ I am a Navy scientist currently pursuing my PhD in Computer Science at Georgia T
 My academic journey began at UCLA, where I studied Mathematics of Computation and made the critical pivot from pure math to computer science. I then joined the Naval Information Warfare Center Pacific (NIWC) in San Diego.
 
 At NIWC, I immersed myself in academic literature, conducting research and successfully transitioning Office of Naval Research–backed tools into active Navy systems. Implementing these security solutions solidified my passion. After years of putting other researchers' work into practice, I returned to school to create my own—which is why I'm now focused on generating new tools and research through my PhD.
+
+#### Research Interest
+
+Exploit practitioners, or more informally referred to as “hackers,” have been developing and manipulating systems for decades. Unfortunately, we’ve reached a point where there’s a ton of hidden knowledge and lore that most academics don’t seem to know about. This disconnect between academia and practitioners has led to considerable gaps in the academic literature regarding exploit development. My research involves formalizing this hidden knowledge and system behaviors that don’t have formal representations. The eventual goal is to develop novel tools that can recreate standard exploit chains in systems using formal methods and different binary analysis techniques.
