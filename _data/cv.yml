@@ -10,7 +10,7 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Georgia Tech 
+      institution: Georgia Tech
       year: Current
       description:
         - Description 1.
@@ -59,14 +59,13 @@
     - year: 2025
       items:
         - Cyber S&T Outreach Team Achivement Award
-        - On the Spot Award - CK 
+        - On the Spot Award - CK
     - year: 2024
       items:
         - On the Spot Award - CK
     - year: 2023
       items:
         - Lighting Bolt Award
-
 
 - title: Other Interests
   type: list
