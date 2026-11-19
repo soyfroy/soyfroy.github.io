@@ -36,3 +36,7 @@ At NIWC, I immersed myself in academic literature, conducting research and succe
 #### Research Interest
 
 Exploit practitioners, or more informally referred to as “hackers,” have been developing and manipulating systems for decades. Unfortunately, we’ve reached a point where there’s a ton of hidden knowledge and lore that most academics don’t seem to know about. This disconnect between academia and practitioners has led to considerable gaps in the academic literature regarding exploit development. My research involves formalizing this hidden knowledge and system behaviors that don’t have formal representations. The eventual goal is to develop novel tools that can recreate standard exploit chains in systems using formal methods and different binary analysis techniques.
+
+Over the course of my PhD, I've spent a lot of time hacking on Android and building tools that help analyze how exploits actually work on the platform. A few of these tools are currently under review, and I plan to release them publicly once the papers are accepted.
+
+On top of that, I’m working on techniques to stop AI attackers. Models are getting better at finding and exploiting vulnerabilities on their own, and defenders need ways to keep up. This work is still ongoing. Along the same lines, I’m interested in agentic systems for cyber applications—figuring out how autonomous agents can be put to work on real security problems.

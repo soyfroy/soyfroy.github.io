@@ -1,0 +1,17 @@
+/*******************************************************************************
+ * Publication badge colors by research area (used by _data/venues.yml)
+ * Light values are checked against white badge text, dark values against
+ * the dark-mode badge text (#212529); all are above 4.5:1 contrast.
+ ******************************************************************************/
+
+:root {
+  --venue-security: #b42318;
+  --venue-cognitive: #1a7f37;
+  --venue-neuro: #6e40c9;
+}
+
+html[data-theme="dark"] {
+  --venue-security: #f4978e;
+  --venue-cognitive: #7ee2a8;
+  --venue-neuro: #c4a5f5;
+}

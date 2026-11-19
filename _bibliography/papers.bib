@@ -7,29 +7,47 @@
   booktitle={Proceedings of the 2024 European Interdisciplinary Cybersecurity Conference},
   pages={90--94},
   year={2024},
+  doi={10.1145/3655693.3655705},
   selected={true},
   abbr={EICC}
 }
 
-@article{kim2024cava,
+@inproceedings{kim2024cava,
   title={CAVA: Cognitive Aid for Vulnerability Analysis},
   author={Kim, Evelyn and Fugate, Sunny and Lebiere, Christian and Barbieux, Aidan and Buch, Jonathan and Cho, Jaehoon and Cranford, Edward and Divita, Joseph and Johnson, Jeremy and Levy, Mia and others},
-  year={2024}
+  booktitle={Proceedings of the 57th Hawaii International Conference on System Sciences},
+  year={2024},
+  doi={10.24251/hicss.2024.886},
+  abbr={HICSS}
 }
 
-@article{cranford5189679cognitive,
+@article{cranford2026cognitive,
   title={Cognitive Models of Reverse Engineering Processes},
-  author={Cranford, Edward Andrew and Lebiere, Christian and Morrison, Donald and Kim, Tiffany Hyun-Jin and Rego, Jocelyn and Marsh, Brianna and Levy, Mia and Barbieux, Aidan and Maldonado, Froylan and Fugate, Sunny and others},
-  journal={Available at SSRN 5189679},
-  year={2024}
+  author={Cranford, Edward A. and Lebiere, Christian and Morrison, Donald and Kim, Tiffany Hyun-Jin and Rego, Jocelyn and Marsh, Brianna and Levy, Mia and Barbieux, Aidan and Maldonado, Froylan and Fugate, Sunny and Bhattacharyya, Rajan},
+  journal={Cognitive Systems Research},
+  volume={96},
+  pages={101444},
+  year={2026},
+  issn={1389-0417},
+  doi={10.1016/j.cogsys.2026.101444},
+  url={https://www.sciencedirect.com/science/article/pii/S1389041726000112},
+  abstract={Cognitive models can reproduce many aspects of human performance, including decisions, learning, and workload. Personalized models can be developed by using methodologies such as model tracing that aligns the specific model against the behavior trace of an individual human user. Those models can then be used for various applications involving human--computer interaction and teaming. This paper presents cognitive models of software reverse engineering for cybersecurity tasks such as the analysis of programs containing vulnerabilities. The models, developed using the Adaptive Control of Thought -- Rational (ACT-R) cognitive architecture, are validated against human behavioral data. Quantitative measures such as cognitive load can be extracted in real time from the model's internal representations and correlated with workload measures computed from neurophysiological sensors. Those measures can be used for a variety of purposes including facilitating teaming across different levels of expertise and serving as the basis for providing recommendations that guide users toward more productive activities. The results highlight the utility of the cognitive model in assisting users performing software reverse engineering tasks and for providing insight into the user's ongoing mental states via cognitive load measures.},
+  keywords={Cognitive models; Personalization; Model-tracing; Instance-based learning; ACT-R cognitive architecture; Software reverse engineering},
+  abbr={CSR}
 }
 
-@article{marsh2023decoding,
+@inproceedings{marsh2024decoding,
   title={Decoding Internal Decision Making During Reverse Engineering Tasks},
-  author={Marsh, Brianna and Rego, Jocelyn and Levy, Mia Matsuhisa and Sayer, Mitchell Peter and Waagen, Alexander and Barbieux, Aidan and Cranford, Edward A and Morrison, Donald F and Maldonado, Froylan and Johnson, Jeremy Phillip and others},
-  journal={bioRxiv},
-  pages={2023--10},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory},
-  abbr={bioRxiv}
+  author={Marsh, Brianna and Rego, Jocelyn and Levy, Mia Matsuhisa and Sayer, Mitchell Peter and Waagen, Alexander and Barbieux, Aidan and Cranford, Edward A and Morrison, Donald F and Maldonado, Froylan and Johnson, Jeremy Phillip and Divita, Joseph and Buch, Jonathan and Kim, Evelyn and Lebiere, Christian and Fugate, Sunny and Bhattacharyya, Rajan},
+  booktitle={Intelligent Human Systems Integration (IHSI 2024): Integrating People and Intelligent Systems},
+  volume={119},
+  year={2024},
+  publisher={AHFE Open Access},
+  issn={2771-0718},
+  isbn={978-1-958651-95-7},
+  doi={10.54941/ahfe1004481},
+  pdf={https://openaccess-api.cms-conferences.org/articles/download/978-1-958651-95-7_17},
+  abstract={Neural decoding is often limited to tasks with known stimuli and limited response options. Real world tasks, however, are often completely stimulus free with unconstrained user response possibilities. To address this problem, we here aimed to achieve online decoding of unprompted moments of recognition as well as the subjects internal value judgements of each recognized entity. In short, we wanted to decode when the subject noticed something, and how they felt about it. This is a fundamental first step in creating automated, interactive, and intelligent human machine teaming. We here present a novel method of decoding moments of recognition and their associated internal value judgments in the context of highly complex reverse engineering tasks. This is done through a combination of P300 detection and the Engagement Index to determine whether an item has been identified as relevant to the task (to be further explored) or irrelevant to the task (to be quickly ignored). P300s are a neural signature of novelty detection, and can be classically evoked in both Go and No Go conditions - i.e., both when a Target stimuli is presented, as well as when a Distractor stimuli is presented. Go and No Go P300 waveforms are very similar, and are usually differentiated only post-hoc if at all. Go \& No Go P300s were here evoked in each subject using a classic Auditory Oddball test; Artificial Neural Networks were then trained to identify P300s in each subject individually. These personalized networks were used to identify P300s in each subject during reverse engineering tasks. Dimensionality reduction of neural data during the tasks showed the existence of separately clustering subgroups of P300s; these subgroups specifically showed differences in Engagement Index, a ratio of neural power bands that has been linked to subject engagement in the task at hand. In the case of reverse engineering tasks where the goal is to find vulnerabilities in the code, this is interpreted as noticing something relevant to identifying a vulnerability in the code (P300 + High Engagement), or noticing something that allows you discard sections of code as likely not containing a vulnerability (P300 + Low Engagement). Subgroups of P300s differentiated by High vs. Low Engagement were further verified as distinct groupings with pupil dilation and user behavior metrics. This decoded information can be used to modify the task interface to aid in the reverse engineering process. Specifically, sections of code that trigger a Go response (P300 + High Engagement) can be highlighted in yellow while sections of code that trigger a No Go response (P300 + Low Engagement) can be greyed out. This allows for cognitive offloading of the user's own decision making onto the visual interface in a completely automated and personalized fashion. Online detection of Go vs. No Go P300 events represents a significant advance in domain of real-time neural decoding, and opens up many further possibilities for usage in a broad range of intelligent human systems integration applications.},
+  keywords={Human Machine Teaming; Neural Decoding; Brain Computer Interface},
+  abbr={IHSI}
 }

@@ -1,9 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Publication badge colors, keyed by each bib entry's `abbr` field.
+# Colors are grouped by research area. Each area's light/dark values live in
+# _sass/_venues.scss, so badges stay readable in both themes.
+# To add a venue, give it the color of its area (or add a new area there).
 
-"PhysRev":
-  url: https://journals.aps.org/
+# Cybersecurity
+"EICC":
+  color: "var(--venue-security)"
+"HICSS":
+  color: "var(--venue-security)"
 
-"Vision":
-  color: "#009f36"
+# Cognitive science
+"CSR":
+  color: "var(--venue-cognitive)"
+
+# Neuroscience
+"IHSI":
+  color: "var(--venue-neuro)"
